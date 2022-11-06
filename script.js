@@ -1,14 +1,5 @@
-(() => {
-    const { createApp } = Vue
+function main() {
+  
+}
 
-    createApp({
-      data() {
-        return {
-          message: 'Hello Vue!'
-        }
-      }
-    }).mount('#app');
-
-    console.log("hello");
-
-})();
+window.onload = main;

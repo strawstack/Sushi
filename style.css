@@ -1,13 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@keyframes side-scroll {
+    from {
+        background-position: 1280px 0px; 
+    }
+    to {
+        background-position: 0px 0px; 
+    }
+}
 
 html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    background: #222;
 }
 
-body {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 1.2rem;
-    background: lightgrey;
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr minmax(0px, 720px) 1fr;
+    grid-template-columns: 1fr;
+}
+
+.image-container {
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("img/buildings.png");
+
+    animation-name: side-scroll;
+    animation-duration: 90s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.buildings {
+    width: 100%;
+    height: auto;
+}
+
+.restaurant {
+    margin-bottom: 20px;
 }

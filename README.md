@@ -1,3 +1,3 @@
-# VueTemplate
+# Sushi
 
-A VueJS template project with CSS modules.
+You visit a street side sushi restaurant somewhere in Japan sometimes
