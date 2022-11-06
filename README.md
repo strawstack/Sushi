@@ -1,5 +1,5 @@
 # Sushi
 
-You visit a street side sushi restaurant somewhere in Japan sometimes
+Somewhere in Japan, you visit a street side sushi restaurant sometimes.
 
 [![image](./screenshot.png)](https://sushi.rhayes.art/)
